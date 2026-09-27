@@ -97,11 +97,11 @@ const contagemRegressiva = () => {
 
 function iniciarOuPausar () {
     if(intervaloId) {
-        iconPlayOuPause.setAttribute('src', '/imagens/pause.png')
         pause.play()
         zerar()
         return
     }
+    iconPlayOuPause.setAttribute('src', '/imagens/pause.png')
     intervaloId = setInterval(contagemRegressiva, 1000)
     play.play()
     iniciarOuPausarBt.textContent = 'Pausar'
@@ -112,6 +112,7 @@ startPauseBt.addEventListener('click', iniciarOuPausar)
 function zerar () {
     clearInterval(intervaloId)
     iniciarOuPausarBt.textContent = "Começar"
+    iconPlayOuPause.setAttribute('src', '/imagens/play_arrow.png')
     intervaloId = null
 }
 
