@@ -11,11 +11,11 @@ const iniciarOuPausarBt = document.querySelector('#start-pause span')
 const iconPlayOuPause = document.querySelector('.app__card-primary-button-icon')
 const tempoNaTela = document.querySelector('#timer')
 
-const musica = new Audio('/sons/luna-rise-part-one.mp3') //audio objeto nativo javascript
+const musica = new Audio('./sons/luna-rise-part-one.mp3') //audio objeto nativo javascript
 musica.loop = true
-const audioTempoFinalizado = new Audio('/sons/beep.mp3')
-const play = new Audio('/sons/play.wav')
-const pause = new Audio('/sons/pause.mp3')
+const audioTempoFinalizado = new Audio('./sons/beep.mp3')
+const play = new Audio('./sons/play.wav')
+const pause = new Audio('./sons/pause.mp3')
 
 let tempoDecorridoEmSegundos = 1500
 let intervaloId = null
@@ -58,7 +58,7 @@ longoBt.addEventListener('click', () => {
 function alterarContexto(contexto) {
     mostrarTempo()
     html.setAttribute('data-contexto', contexto)
-    banner.setAttribute('src', `/imagens/${contexto}.png`)
+    banner.setAttribute('src', `./imagens/${contexto}.png`)
 
     botoes.forEach(function (contexto){
         contexto.classList.remove('active')
@@ -101,7 +101,7 @@ function iniciarOuPausar () {
         zerar()
         return
     }
-    iconPlayOuPause.setAttribute('src', '/imagens/pause.png')
+    iconPlayOuPause.setAttribute('src', './imagens/pause.png')
     intervaloId = setInterval(contagemRegressiva, 1000)
     play.play()
     iniciarOuPausarBt.textContent = 'Pausar'
@@ -112,7 +112,7 @@ startPauseBt.addEventListener('click', iniciarOuPausar)
 function zerar () {
     clearInterval(intervaloId)
     iniciarOuPausarBt.textContent = "Começar"
-    iconPlayOuPause.setAttribute('src', '/imagens/play_arrow.png')
+    iconPlayOuPause.setAttribute('src', './imagens/play_arrow.png')
     intervaloId = null
 }
 
