@@ -7,15 +7,15 @@ O projeto permite alternar entre períodos de **foco**, **descanso curto** e **d
 ## 📸 Preview
 
 > Modo Foco
-![Preview do Fokus](./images/preview-foco.png)
+![Preview do Fokus](./imagens/preview-foco.png)
 
 > Modo Descanso Curto
 
-![Preview do Fokus](./images/preview-curto.png)
+![Preview do Fokus](./imagens/preview-curto.png)
 
 > Modo Descanso Longo
 
-![Preview do Fokus](./images/preview-longo.png)
+![Preview do Fokus](./imagens/preview-longo.png)
 
 ## 🚀 Funcionalidades
 
