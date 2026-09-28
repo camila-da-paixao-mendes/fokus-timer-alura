@@ -6,10 +6,16 @@ O projeto permite alternar entre períodos de **foco**, **descanso curto** e **d
 
 ## 📸 Preview
 
-![Preview do Fokus](./images/preview.png)
+> Modo Foco
+![Preview do Fokus](./images/preview-foco.png)
 
-> 💡 Coloque aqui um print da versão final do seu projeto.
-> Você pode criar uma pasta `images` no repositório e adicionar nela o arquivo `preview.png`.
+> Modo Descanso Curto
+
+![Preview do Fokus](./images/preview-curto.png)
+
+> Modo Descanso Longo
+
+![Preview do Fokus](./images/preview-longo.png)
 
 ## 🚀 Funcionalidades
 
