@@ -58,7 +58,7 @@ A partir do projeto apresentado no curso, implementei a lógica do temporizador,
 
 ## 🔗 Acesso
 
-**[▶️ Acesse o projeto](SEU-LINK-AQUI)**
+**[▶️ Acesse o projeto](https://camila-da-paixao-mendes.github.io/fokus-timer-alura/)**
 
 ## 📌 Curso
 
